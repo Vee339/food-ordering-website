@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Order your favourite food</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+	<div id="header">
+		<div id="logo">
+			<img src="pics/logo.png" alt="logo">
+		</div>
+		<div id="menu-button">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Foods</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>		
+	</div>
+	<div id="banner">
+		<input type="text" placeholder="Search for food">
+		<button id="SearchFood">Search</button>
+	</div>
+	<div id="categories">
+		<h2>Explore Foods</h2>
+		<div id="images">
+			<a href="">
+				<div class="imgbox pizza"><img src="pics/chad-montano-MqT0asuoIcU-unsplash.jpg" alt=""><div class="curtain"></div></div>
+			</a>
+			<a href="">
+				<div class="imgbox kadi"><img src="pics/cala-w6ftFbPCs9I-unsplash.jpg" alt=""><div class="curtain"></div></div>
+			</a>
+		    <a href="">
+		    	<div class="imgbox chicken"><img src="pics/jason-leung-AUAuEgUxg5Q-unsplash.jpg" alt=""><div class="curtain"></div></div>
+		    </a>
+		    
+		</div>
+		
+
+	</div>
+	<div id="orders">
+		<h2>Food Menu</h2>
+		<div class="items">
+			<div class="item">
+			<img src="pics/monika-grabkowska-_y6A9bhILkM-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+		<div class="item">
+			<img src="pics/brooke-lark-oaz0raysASk-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+		<div class="item">
+			<img src="pics/edgar-castrejon-1SPu0KT-Ejg-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+<div class="item">
+			<img src="pics/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+		<div class="item">
+			<img src="pics/hanxiao-zzxqoEa64_0-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+		<div class="item">
+			<img src="pics/jason-leung-AUAuEgUxg5Q-unsplash.jpg" alt="">
+			<div class="desc">
+				<h4>Food Title</h4>
+			    <span>$2.3</span>
+			    <p>Made with Italian sause,chicken and organic vegetables</p>
+			    <button id="orderFood">Order Now</button>
+			</div>
+			
+		     </div>
+		</div>
+		
+		<h3>See All Foods>>>></h3>
+	</div>
+    <div id="footer">
+    	<div id="socials">
+    		<ul>
+    			<li><a href=""><i class="fab fa-facebook facebook"></i></a></li>
+    			<li><a href=""><i class="fab fa-instagram-square instagram"></i></a></li>
+    			<li><a href=""><i class="fab fa-twitter twitter"></i></a></li>
+    		</ul>
+    	</div>
+    	<p>All rights are reserved. Designed by <span>Veerpal Kaur.</span></p>
+    </div>
+    <script>
+    	document.querySelector("#menu-button").addEventListener("click",function(){
+    		this.classList.toggle("active");
+    		document.querySelector("#menu").classList.toggle("active");
+    	})
+    </script>
+</body>
+</html>
